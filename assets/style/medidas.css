@@ -1,0 +1,133 @@
+@media(min-width: 504px) {
+ 
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+  }
+  .image {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    height: auto;
+  }
+  .title {
+    text-align: center;
+    color: var(--Dark-blue);
+    font-weight: 700;
+  }
+  .description {
+    text-align: center;
+    font-size:15px;
+    color: var(--Grayish-blue);
+    font-weight: 400;
+  }
+  
+  
+}
+
+
+@media(min-width: 624px) {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+  }
+  .image {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .image img{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    height: 20%;
+  }
+  .title {
+    text-align: center;
+    color: var(--Dark-blue);
+    font-weight: 700;
+  }
+  .description {
+    text-align: center;
+    font-size:15px;
+    color: var(--Grayish-blue);
+    font-weight: 400;
+  }
+  
+  
+}
+
+@media(min-width: 1024px) {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    width: 30%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+  }
+  .image {
+    width: 90%;
+    height: 60%;
+    border-radius: 15px;
+  }
+  .image img{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    height: 20%;
+  }
+  .title {
+    text-align: center;
+    color: var(--Dark-blue);
+    font-weight: 700;
+  }
+  .description {
+    text-align: center;
+    font-size:15px;
+    color: var(--Grayish-blue);
+    font-weight: 400;
+  }
+  
+  
+}
